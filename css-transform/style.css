@@ -1,0 +1,26 @@
+.wrapper{
+    width: 640px;
+    height: 427px;
+}
+
+.wrapper-fix{
+    width: 640px;
+    height: 427px;
+    overflow: hidden;   
+}
+
+.wrapper__image{
+    -moz-transition: -moz-transform 0.3s linear;
+    -webkit-transition: -webkit-transform 0.3s linear;
+    -o-transition: -o-transform 0.3s linear;
+    -ms-transition: -ms-transform 0.3s linear;
+    transition: transform 0.3s linear;
+}
+
+.wrapper__image:hover{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
