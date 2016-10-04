@@ -1,0 +1,33 @@
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.list{
+    float: left;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container{
+    width: 80%;
+    margin-top: 100px;
+}
+
+.box{
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+    height: 100px;
+    background: #666;
+}
+
+.box:last-of-type{
+    margin-right: 0;
+}
+
+.box:first-of-type{
+    margin-left: 5%;
+}
