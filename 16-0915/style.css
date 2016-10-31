@@ -1,0 +1,36 @@
+.container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.menu_title{
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu{
+    text-align: center;
+    cursor: pointer;
+}
+
+.navi--close{
+    display: none;
+}
+
+.navi--open{
+    display: block;
+}
+
+.box{
+    float: left;
+    margin: 30px 30px 0;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.box--background{
+    background: #f33;
+}
