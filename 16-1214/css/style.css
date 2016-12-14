@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navi{
+    width: 940px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.navi-list{
+    padding-left: 1em;
+}
+
+/* cssでのアニメーション練習*/
+
+.navi-list,.logo{
+    transition: all 1s 0.3s ease;
+}
+
+.logo:hover{
+    transform: rotate(360deg);
+}
+
+.navi-list:hover{
+    transform: rotate(-180deg) scale(1.3); /* transformの複数指定 */
+    color: #359;
+}
