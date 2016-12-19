@@ -3,6 +3,14 @@ body,h1,h2,h3,p{
     padding: 0;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    color: #000;
+}
+
 .clearfix{
     content: "";
     clear: both;
