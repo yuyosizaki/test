@@ -1,0 +1,26 @@
+/* flexの中央寄せ　*/
+
+html,.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 台形 */
+
+.trapezoid{
+    width: 100px;
+    height: 0;
+    border-bottom: 100px solid #377;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    transition: all 0.5s 0.5s;
+}
+
+.trapezoid:hover{
+    border-bottom: 100px solid #377;
+    border-top: 0 solid #377;
+    border-left: 0 solid transparent;
+    border-right: 0 solid transparent;
+}
