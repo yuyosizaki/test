@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.modal{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #444;
+}
+
+.modalstart,.modalclose{
+    cursor: pointer;
+}
+
+p{
+    color: #fff;
+    padding: 10px;
+}
